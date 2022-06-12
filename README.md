@@ -21,6 +21,8 @@ Aside from the stock performance itself, there was a significant difference betw
 
 2017 Refactored: ![alt text](https://github.com/Bropell/stock-analysis/blob/main/Resources/VBA_Challenge_2017.png)
 
+
+
 2018 Original: ![alt text](https://github.com/Bropell/stock-analysis/blob/main/Resources/Original_Script_2018.png)
 
 2018 Refactored: ![alt text](https://github.com/Bropell/stock-analysis/blob/main/Resources/VBA_Challenge_2018.png)
