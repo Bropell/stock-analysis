@@ -21,11 +21,15 @@ Aside from the stock performance itself, there was a significant difference betw
 
 2017 Refactored: ![alt text](https://github.com/Bropell/stock-analysis/blob/main/Resources/VBA_Challenge_2017.png)
 
-
-
 2018 Original: ![alt text](https://github.com/Bropell/stock-analysis/blob/main/Resources/Original_Script_2018.png)
 
 2018 Refactored: ![alt text](https://github.com/Bropell/stock-analysis/blob/main/Resources/VBA_Challenge_2018.png)
 
+This large difference in execution time comes from refactoring the code by using arrays. A variable called tickerIndex was defined and would be used as the argument for each array to be looped over. Three output arrays for the parameters of interest were defined in size and object type in order to store the values from the loop. A visual summary can be seen in the screenshot below:
 
+![alt text](https://github.com/Bropell/stock-analysis/blob/main/Resources/For_Loop_1.png)
+
+ Finally, loop through the arrays to output each value to its corresponding area in the spreadsheet. The loop and output locations are shown in the image below.
+
+ ![alt text](https://github.com/Bropell/stock-analysis/blob/main/Resources/For_Loop_2.png)
 ## Summary
