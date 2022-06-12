@@ -15,7 +15,7 @@ The were a couple of things to comment on in terms of stock performance between 
 
 This analysis was very insightful for Steve and his parents since they plan on investing all of their resources into only the DQ stock. If they had done so in 2017 they would have made a large return but would have taken a hit the following year. It would likely be unwise to invest so much into a stock that fluctuates between such large ranges of return. Most stocks did however have a higher total daily volume in 2018 compared to 2017 which means there is more money being funneled into the stock but the return is certainly more important.
 ### Execution Times: Original Script Vs Refactored Script
-Aside from the stock performance itself, there was a significant difference between the execution times of the original script and the refactored script. In fact, there was a whole order of magnitude difference as seen from the screenshots below. 
+Aside from the stock performance itself, there was a significant difference between the execution times of the original script and the refactored script. In fact, there was a whole order of magnitude difference, even though the original script did not include a cell formatting function whereas the refactored code did. The time differences can be seen in the screenshots below. 
 
 2017 Original: ![alt text](https://github.com/Bropell/stock-analysis/blob/main/Resources/Original_Script_2017.png)
 
@@ -29,7 +29,13 @@ This large difference in execution time comes from refactoring the code by using
 
 ![alt text](https://github.com/Bropell/stock-analysis/blob/main/Resources/For_Loop_1.png)
 
- Finally, loop through the arrays to output each value to its corresponding area in the spreadsheet. The loop and output locations are shown in the image below.
+Finally, loop through the arrays to output each value to its corresponding area in the spreadsheet. The loop and output locations are shown in the image below.
 
- ![alt text](https://github.com/Bropell/stock-analysis/blob/main/Resources/For_Loop_2.png)
+![alt text](https://github.com/Bropell/stock-analysis/blob/main/Resources/For_Loop_2.png)
+
+
 ## Summary
+
+- What are the advantages or disadvantages of refactoring code?
+
+There are several advantages and disadvantages of refactoring code. Some advantages of refactoring include: 
