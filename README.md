@@ -25,11 +25,11 @@ Aside from the stock performance itself, there was a significant difference betw
 
 2018 Refactored: ![alt text](https://github.com/Bropell/stock-analysis/blob/main/Resources/VBA_Challenge_2018.png)
 
-This large difference in execution time comes from refactoring the code by using arrays. A variable called tickerIndex was defined and would be used as the argument for each array to be looped over. Three output arrays for the parameters of interest were defined in size and object type in order to store the values from the loop. A visual summary can be seen in the screenshot below:
+This large difference in execution time comes from refactoring the code by using multiple arrays. A variable called tickerIndex was defined and would be used as the argument for each array to be looped over. Three output arrays for the parameters of interest were defined in size and object type in order to store the values from the loop. A visual summary can be seen in the screenshot below:
 
 ![alt text](https://github.com/Bropell/stock-analysis/blob/main/Resources/For_Loop_1.png)
 
-Finally, loop through the arrays to output each value to its corresponding area in the spreadsheet. The loop and output locations are shown in the image below.
+Finally, loop through the arrays to output each value to its corresponding area in the spreadsheet. The loop and output locations are shown in the image below. Using arrays in this way is much faster than trying to loop through an array, loop through rows and then outputting the data into the spreadsheet with a nested loop. 
 
 ![alt text](https://github.com/Bropell/stock-analysis/blob/main/Resources/For_Loop_2.png)
 
@@ -38,4 +38,8 @@ Finally, loop through the arrays to output each value to its corresponding area 
 
 - What are the advantages or disadvantages of refactoring code?
 
-There are several advantages and disadvantages of refactoring code. Some advantages of refactoring include: 
+There are several advantages and disadvantages of refactoring code. Some advantages of refactoring include reduced execution times and improved software design. As seen from the results of this analysis, after the code was refactored the execution time went down by a full order of magnitude. Over much larger data sets, this time save will eventually start to add up. Improved software design and the ability to refactor depends on a strong understanding of how the code works and it can extend the life of the code by designing it to be easy to understand and maintain. Some major disadvantages of refactoring code, as seen with this challenge, was the increased complexity of writing the code and how time consuming it can be. For the one writing the code, imprecise refactoring can introduce many new bugs that were not present in the original script. It can be very time consuming to find and fix these bugs in addition to trying to write the code in the first place. 
+
+- How do these pros and cons apply to refactoring the original VBA script? 
+
+
